@@ -1,0 +1,17 @@
+bin
+build
+*.class
+*.class
+out
+
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea
+**/.ideaDataSources/
+/dataSources/
+.shelf
+
+#log  files
+*.log
