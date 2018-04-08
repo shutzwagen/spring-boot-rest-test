@@ -1,0 +1,8 @@
+#spring
+spring:
+  profiles:
+    active: "dev"
+
+#request params
+search.substring: "abc"
+search.mode: LINES_COUNT
