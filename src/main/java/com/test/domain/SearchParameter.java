@@ -1,7 +1,8 @@
 package com.test.domain;
 
 /**
- * //TODO add comment before commit
+ * Domain that represents search parameter object.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>

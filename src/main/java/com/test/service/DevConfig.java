@@ -9,7 +9,8 @@ import javax.annotation.PostConstruct;
 import static com.test.Main.LOGGER;
 
 /**
- * //TODO add comment before commit
+ * Profile-based configuration for DEV environment.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>

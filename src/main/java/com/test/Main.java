@@ -6,7 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * //TODO add comment before commit
+ * Main application.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>

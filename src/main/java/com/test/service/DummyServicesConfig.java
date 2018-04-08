@@ -8,7 +8,8 @@ import javax.annotation.PostConstruct;
 import static com.test.Main.LOGGER;
 
 /**
- * //TODO add comment before commit
+ * Configuration for dummy services.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>

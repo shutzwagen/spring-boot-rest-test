@@ -6,7 +6,8 @@ import org.springframework.util.StringUtils;
 import java.util.function.BiFunction;
 
 /**
- * //TODO add comment before commit
+ * Enum for holding all modes of searching subStrings within the specified text.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>

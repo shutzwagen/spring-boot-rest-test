@@ -18,7 +18,8 @@ import javax.annotation.PostConstruct;
 import java.io.IOException;
 
 /**
- * //TODO add comment before commit
+ * Controller that handles requests for searching subStrings within the specified text.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>
@@ -50,7 +51,7 @@ public class SearchController {
         xmlMapper = new XmlMapper();
     }
 
-    //TODO: add throwing custom exception and exceptionHandler
+    //TODO: add throwing custom exception and corresponding exceptionHandler
     @RequestMapping(value = "/search", method = RequestMethod.POST, consumes = MediaType.TEXT_PLAIN_VALUE)
     @ResponseStatus(HttpStatus.OK)
     public String findSubstringsByPlainText(@RequestBody String incomingText) {

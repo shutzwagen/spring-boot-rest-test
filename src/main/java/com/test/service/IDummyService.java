@@ -1,7 +1,8 @@
 package com.test.service;
 
 /**
- * //TODO add comment before commit
+ * Interface for dummy services.
+ *
  * <p/>
  * Copyright (C) 2018 copyright.com
  * <p/>
