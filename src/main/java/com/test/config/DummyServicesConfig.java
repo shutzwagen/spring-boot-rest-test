@@ -1,5 +1,6 @@
-package com.test.service;
+package com.test.config;
 
+import com.test.service.IDummyService;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 

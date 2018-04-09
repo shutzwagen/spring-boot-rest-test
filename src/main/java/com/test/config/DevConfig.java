@@ -1,5 +1,6 @@
-package com.test.service;
+package com.test.config;
 
+import com.test.service.IDummyComponentBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
@@ -9,7 +10,7 @@ import javax.annotation.PostConstruct;
 import static com.test.Main.LOGGER;
 
 /**
- * Profile-based configuration for TEST environment.
+ * Profile-based configuration for DEV environment.
  *
  * <p/>
  * Copyright (C) 2018 copyright.com
@@ -18,15 +19,15 @@ import static com.test.Main.LOGGER;
  *
  * @author Aliaksandr Kazlou
  */
-@Profile("test")
+@Profile("dev")
 @Configuration
-public class TestConfig {
+public class DevConfig {
 
     private static final String DUMMY_COMPONENT_INITIALIZED_MESSAGE =
-            "Dummy component for test environment has been instantiated";
+            "Dummy component for dev environment has been instantiated";
 
     @Bean
-    IDummyComponentBean getDummyTestBean() {
+    IDummyComponentBean getDummyDevBean() {
         return new IDummyComponentBean() {
 
             @PostConstruct
